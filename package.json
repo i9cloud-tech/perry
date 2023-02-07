@@ -1,0 +1,16 @@
+{
+  "name": "perry",
+  "version": "1.0.0",
+  "description": "Freelance management tool",
+  "main": "src/index.js",
+  "repository": "git@github.com:i9cloud-tech/perry",
+  "author": "robsonandradev <robsom.s.a@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "electron"
+  },
+  "devDependencies": {
+    "electron": "^23.0.0"
+  }
+}
