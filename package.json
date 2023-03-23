@@ -22,6 +22,8 @@
     "electron": "^23.0.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "rxdb": "^14.3.7",
+    "rxjs": "^7.8.0"
   }
 }

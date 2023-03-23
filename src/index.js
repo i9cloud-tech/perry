@@ -1,4 +1,8 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, ipcMain} = require('electron')
+const db = require('./database')
+const config = require('./cases/config')
+
+config.run(db, ipcMain)
 
 const createWindow = () => {
   const win = new BrowserWindow({
